@@ -6,7 +6,7 @@ This tool generates a master table with the insulation metrics for each boundary
 
 RUN:
 
-Rscript diff.boundaries.r <condition1.domains.path> <condition2.domains.path> <ratio.scores.path>
+Rscript diff.boundaries.r <condition1.name> <condition2.name> <condition1.domains.file <condition2.domains.file> <ratio.scores.path>
 
 EXAMPLE:
 
