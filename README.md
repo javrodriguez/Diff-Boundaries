@@ -6,8 +6,12 @@ This tool generates a master table with the insulation metrics for each boundary
 
 RUN:
 
-Rscript diff.boundaries.r <condition1.name> <condition2.name> <condition1.domains.file <condition2.domains.file> <ratio.scores.path>
+Rscript diff.boundaries.r <condition1.name> <condition2.name> <condition1.domains.file <condition2.domains.file> <ratio.scores.file>
 
-EXAMPLE:
+Notes:
+- the ratio.scores.file (matrix.ratio.k=001.tsv) is generated in the 'boundary-scores-pca' step of HiC-Bench.
+- the domains bed files (domains.k=001.bed) are generated in the 'domains' step of HiC-Bench.
+
+RUN EXAMPLE:
 
 Rscript diff.boundaries.r PDX.D PDX.t1416 __10a-domains/by_group/PDX-D/domains.k=001.bed __10a-domains/by_group/PDX-t1416/domains.k=001.bed files/matrix.ratio.k=001.tsv
