@@ -147,7 +147,7 @@ write.table(master.df.clean, file = paste0("diff.boundaries_master_",conditions[
 
 ## Get Boundaries with significant changes ##
 boundaries_up <- master.df.clean[master.df.clean$padjusted < padj.cut & master.df.clean$log2FC > lfc.cut,]
-boundaries_down <- master.df.clean[master.df.clean$padjusted < padj.cut & master.df.clean$log2FC < lfc.cut,]
+boundaries_down <- master.df.clean[master.df.clean$padjusted < padj.cut & master.df.clean$log2FC < -lfc.cut,]
 
 print(paste0("Number of boundaries with significant increased insulation: ", dim(boundaries_up)[1]))
 print(paste0("Number of boundaries with  significant decreased insulation: ", dim(boundaries_down)[1]))
