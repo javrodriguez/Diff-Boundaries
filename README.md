@@ -14,4 +14,4 @@ Notes:
 
 RUN EXAMPLE:
 
-Rscript diff.boundaries.r PDX.D PDX.t1416 __10a-domains/by_group/PDX-D/domains.k=001.bed __10a-domains/by_group/PDX-t1416/domains.k=001.bed files/matrix.ratio.k=001.tsv
+Rscript diff.boundaries.r PDX.D PDX.t1416 ./test_data/domains/by_group/PDX-D/domains.k=001.bed ./test_data//by_group/PDX-t1416/domains.k=001.bed ./test_data/boundary-scores-pca/matrix.ratio.k=001.tsv
