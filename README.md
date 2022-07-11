@@ -13,8 +13,8 @@ Notes:
 - the domains bed files (domains.k=001.bed) are generated in the 'domains' step of HiC-Bench.
 
 
-
-# RUN TEST SET:
+-------------------------------------------------------------------------------------
+RUN TEST SET:
 
 git clone https://github.com/javrodriguez/Diff-Boundaries.git
 
