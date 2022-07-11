@@ -12,7 +12,9 @@ Notes:
 - the ratio.scores.file (matrix.ratio.k=001.tsv) is generated in the 'boundary-scores-pca' step of HiC-Bench.
 - the domains bed files (domains.k=001.bed) are generated in the 'domains' step of HiC-Bench.
 
-RUN TEST:
+
+
+# RUN TEST SET:
 
 git clone https://github.com/javrodriguez/Diff-Boundaries.git
 
