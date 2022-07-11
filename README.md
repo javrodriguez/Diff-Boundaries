@@ -16,4 +16,6 @@ RUN TEST:
 
 git clone https://github.com/javrodriguez/Diff-Boundaries.git
 
+cd Diff-Boundaries/
+
 Rscript diff.boundaries.r PDX.D PDX.t1416 ./test_data/domains/PDX-D/domains.k=001.bed ./test_data/PDX-t1416/domains.k=001.bed ./test_data/boundary-scores-pca/matrix.ratio.k=001.tsv
