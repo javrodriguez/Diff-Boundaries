@@ -1,8 +1,8 @@
 # Diff-Boundaries
 
-This pipeline performs a pairwise differential analysis of TAD boundary insulation in two conditions. It was designed to use output files produced by the HiC-Bench pipeline. It uses the domains (TADs) identified by the Crane method and the 'ratio' insulation scores obtained for each replicate.
+This pipeline performs a pairwise differential analysis of TAD boundary insulation in two conditions. It was designed to use output files produced by the HiC-Bench pipeline. It uses the domains (TADs) identified by the Crane method (params.crane.ins_0500K.tcsh) and the 'ratio' insulation scores obtained for each replicate (matrix.ratio.k=001.tsv).
 
-This tool generates a master table with the insulation metrics for each boundary, a volcano-plot and a boxplot and three bed files with the boundary coordinates of the boundaries classified as 'increased', 'stable' and 'decreased' insulation-wise.
+This tool generates a table with the insulation metrics for each boundary, a volcano-plot, a boxplot and three bed files with the boundary coordinates of the boundaries classified as 'increased', 'stable' and 'decreased' insulation-wise.
 
 RUN:
 
